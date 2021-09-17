@@ -21,6 +21,7 @@
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     </head>
     <body style="background-color:#F9F6FA;">
+
         <div class="container">
             <div class="row align-items-center abs-center">
                 <div class="col-md-4">
@@ -41,27 +42,32 @@
                                 <label for="ID_CLIENTE">CLIENTE</label>
                                 <select name="txtID_CLIENTE" type="number" class="form-control">
                                     <option value="Vacio">Seleccione cliente...</option> 
-                                    <option value="1" name="txtID_CLIENTE">1</option> 
-                                    <option value="2" name="txtID_CLIENTE">2</option> 
-                                    <option value="3" name="txtID_CLIENTE">3</option> 
+                                    <option value="1" name="txtID_CLIENTE">EDWIN</option> 
+                                    <option value="2" name="txtID_CLIENTE">HULBERT</option> 
+                                    <option value="3" name="txtID_CLIENTE">JOSE</option> 
+                                    <option value="4" name="txtID_CLIENTE">CARMEN</option> 
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="ID_PRENDA">PRENDA</label>
                                 <select name="txtID_PRENDA" type="number" class="form-control">
                                     <option value="Vacio" >Seleccione cliente...</option> 
-                                    <option value="1" name="txtID_PRENDA">1</option> 
-                                    <option value="2" name="txtID_PRENDA">2</option> 
-                                    <option value="3" name="txtID_PRENDA">3</option> 
+                                    <option value="1" name="txtID_PRENDA">CAMISETA ADIDAS</option> 
+                                    <option value="2" name="txtID_PRENDA">CAMISETA NIKE</option> 
+                                    <option value="3" name="txtID_PRENDA">PANTALONES LEVI´S</option> 
+                                    <option value="4" name="txtID_PRENDA">TENIS ADIDAS</option> 
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="ID_EMPLEADO">EMPLEADO</label>
                                 <select name="txtID_EMPLEADO" type="number" class="form-control">
                                     <option value="Vacio" required>Seleccione empleado...</option> 
-                                    <option value="1" name="txtID_EMPLEADO">1</option> 
-                                    <option value="2" name="txtID_EMPLEADO">2</option> 
-                                    <option value="3" name="txtID_EMPLEADO">3</option> 
+                                    <option value="1" name="txtID_EMPLEADO">DUVIER</option> 
+                                    <option value="2" name="txtID_EMPLEADO">ROSA</option> 
+                                    <option value="3" name="txtID_EMPLEADO">PIETRO</option> 
+                                    <option value="4" name="txtID_EMPLEADO">OSCAR</option> 
+                                    <option value="5" name="txtID_EMPLEADO">SARA</option> 
+                                    <option value="6" name="txtID_EMPLEADO">OSCAR</option>
                                 </select>
                             </div>
                             <input class="btn btn-primary" type="submit" name="accion" value="Agregar">    

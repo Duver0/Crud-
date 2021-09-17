@@ -23,7 +23,7 @@
             }
         </script>
         <br>
-        <h1 class="text-center">INFORMACIÓN VENTAS<span class="glyphicon"></span></h1>
+        <h1 class="text-center">INFORMACIÓN VENTA<span class="glyphicon"></span></h1>
         <br>
         <div id="main">
             <center>
